@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lists{
+    margin-left: 380px;
+    margin-top: 45px;
+}
+
+.alert{
+    padding: 5px !important;
+    margin-left: 200px;
+    font-weight: 500;
+    display: none;
+    margin-top: -35px;
+    position: absolute;
+}
+
+form{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.listsOpenTwo{
+    display: none;
+}
+
+.friendsListsClose{
+    display: none;
+}
+
+.table{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.btn{
+    font-weight: 500;
+}
+
+

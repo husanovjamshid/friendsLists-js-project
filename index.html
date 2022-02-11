@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My JS Project</title>
+  </head>
+  <body>
+
+  <div class="container friendsLists">
+    <div class="alert alert-danger text-center w-50 ">Iltimos ma'lumotlarni kiriting</div>
+    <h1 class="lists"><i class="fas fa-user-friends text-warning"></i> <span class="text-warning">Friends</span>List</h1>
+    <form class="w-75" action="">
+      <div class="form-group">
+        <label for="name"><span class="text-muted">Ism</span></label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="lname"><span class="text-muted">Familiya</span></label>
+        <input type="text" class="form-control" id="lname">
+      </div>
+      <div class="form-group">
+        <label for="youth"><span class="text-muted">Yosh</span></label>
+        <input type="phone" class="form-control" id="youth">
+      </div>
+      <div class="form-group">
+        <label for="phone"><span class="text-muted">Telefon raqan</span></label>
+        <input type="tell" class="form-control" id="phone">
+      </div>
+
+      <button type="submit" class="btn btn-warning btn-block listsOpen ">Ro'yxatga qo'shish <i class="fas text-dark ml-2 fa-plus-circle"></i></button>
+      <button type="submit" class="btn btn-warning btn-block listsOpenTwo mt-2">Mavjud ro'yxatlarni ko'rish <i class="fas fa-eye ml-2 text-dark"></i></button>
+    </form>
+  </div>
+
+
+  <div class="container friendsListsClose">
+    <h1 class="lists"><i class="fas fa-user-friends text-warning"></i> <span class="text-warning">Friends</span>List</h1>
+
+    <table class="table text-muted w-75 text-center table-hover">
+        <thead>
+        <tr>
+          <th>Ismi</th>
+          <th>Familiyasi</th>
+          <th>Yoshi</th>
+          <th>Telefon raqami</th>
+        </tr>
+        </thead>
+        <tbody id="friends-list"></tbody>
+      </table>
+    <button type="submit" class="btn w-75 table btn-warning btn-block listsClose"><i class="fas fa-chevron-circle-left mr-2 text-dark"></i> Orqaga qaytish</button>
+
+  </div>
+
+    <script src="./js/fontawesome.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
